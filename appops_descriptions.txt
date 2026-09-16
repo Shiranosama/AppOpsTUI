@@ -1,0 +1,178 @@
+accept_handover|Accept call handover
+access_accessibility|Interact with accessibility.
+access_hid|Access to raw HID device nodes.
+access_local_network|Access local network (auto-generated)
+access_media_location|Read location metadata from media
+access_notifications|Access notifications (auto-generated)
+access_restricted_settings|Limit user accessing restricted settings.
+activate_platform_vpn|Start Platform VPN without user intervention
+activate_vpn|Activate a VPN connection without user intervention.
+activity_recognition|Recognize physical activity.
+activity_recognition_source|Activity recognition being accessed by an activity recognition source, which is a component that already has access since it is the one that detects activity recognition.
+add_voicemail|Required to access phone state related information.
+answer_phone_calls|Answer incoming phone calls
+archive_icon_overlay|Whether the app has enabled to receive the icon overlay for fetching archived apps.
+assist_screenshot|Assist screenshot (auto-generated)
+assist_structure|Assist structure (auto-generated)
+audio_accessibility_volume|Audio accessibility volume (auto-generated)
+audio_alarm_volume|Audio alarm volume (auto-generated)
+audio_bluetooth_volume|Audio bluetooth volume (auto-generated)
+audio_master_volume|Audio master volume (auto-generated)
+audio_media_volume|Audio media volume (auto-generated)
+audio_notification_volume|Audio notification volume (auto-generated)
+audio_ring_volume|Audio ring volume (auto-generated)
+audio_voice_volume|Audio voice volume (auto-generated)
+auto_revoke_managed_by_installer|Auto-revoke app permissions if app is unused for an extended period
+auto_revoke_permissions_if_unused|Auto-revoke app permissions if app is unused for an extended period
+bind_accessibility_service|Bind accessibility service (auto-generated)
+bluetooth_advertise|Bluetooth advertise (auto-generated)
+bluetooth_connect|Bluetooth connect (auto-generated)
+bluetooth_scan|Bluetooth scan (auto-generated)
+body_sensors|Access to body sensors such as heart rate, etc.
+call_phone|Allows an application to initiate a phone call.
+camera|Required to be able to access the camera device.
+camera_sandboxed|Camera is being recorded in sandboxed detection process.
+capture_consentless_bugreport_on_userdebug_build|Allows an application to capture bugreport directly without consent dialog when using the bugreporting API on userdebug/eng build.
+change_wifi_state|Change wifi state (auto-generated)
+coarse_location|Access to coarse location information.
+read_phone_numbers|Read phone numbers (auto-generated)
+coarse_location_source|Coarse location being accessed by a location source, which is a component that already has location since it is the one that produces location.
+computer_control|Control other applications.
+continue_across_devices|Access to continue an app across devices.
+control_audio|Access to audio playback and control APIs
+control_audio_partial|Access to a audio playback and control APIs without capability requirements
+create_accessibility_overlay|Creation of an overlay using accessibility services
+deprecated_2|App op deprecated/removed.
+deprecated_3|App op has been deprecated.
+deprecated_4|App op has been removed.
+emergency_location|Allows an app to access location without the traditional location permissions and while the user location setting is off, but only during pre-defined emergency sessions. This op is only used for tracking, not for permissions, so it is still the client's responsibility to check the Manifest.permission#LOCATION_BYPASS permission appropriately.
+enable_mobile_data_by_user|Indicate that the user has enabled or disabled mobile data
+establish_vpn_manager|VPN app establishes a connection through the VpnManager API.
+establish_vpn_service|VPN app establishes a connection through the VpnService API.
+eye_tracking_coarse|Access coarse eye tracking data.
+eye_tracking_fine|Access fine eye tracking data.
+face_tracking|Access face tracking data.
+fine_location|Access to fine location information.
+fine_location_source|Fine location being accessed by a location source, which is a component that already has location since it is the one that produces location.
+foreground_service_special_use|Start a foreground service with the type "specialUse".
+get_accounts|Get device accounts.
+get_usage_stats|Access to android.app.usage.UsageStatsManager.
+gps|Gps (auto-generated)
+hand_tracking|Access hand tracking data.
+head_tracking|Access head tracking data.
+instant_app_start_foreground|Instant app start foreground (auto-generated)
+interact_across_profiles|Communicate cross-profile within the same profile group.
+legacy_storage|Has a legacy (non-isolated) view of storage.
+loader_usage_stats|Loader usage stats (auto-generated)
+manage_credentials|Manage credentials in the system KeyChain.
+manage_external_storage|Access all external storage
+manage_ipsec_tunnels|Manage ipsec tunnels (auto-generated)
+manage_media|Allow apps to create the requests to manage the media files without user confirmation.
+manage_ongoing_calls|Grants an app access to the android.telecom.InCallService API to see information about ongoing calls and to enable control of calls.
+media_routing_control|Allows apps holding this permission to control the routing of other apps via MediaRouter2. For example, holding this permission allows watches (via companion apps) to control the routing of applications running on the phone.
+mock_location|Inject mock location into the system.
+monitor_location|Continually monitoring location data.
+monitor_location_high_power|Continually monitoring location data with a relatively high power request.
+mute_microphone|Mute microphone (auto-generated)
+nearby_wifi_devices|Nearby wifi devices (auto-generated)
+neighboring_cells|Neighboring cells (auto-generated)
+no_isolated_storage|AppOp granted to apps that we are started via am instrument -e --no-isolated-storage MediaProvider is the only component (outside of system server) that should care about this app op, hence SystemApi.Client.MODULE_LIBRARIES.
+phone_call_camera|Phone call is using camera
+phone_call_microphone|Phone call is using microphone
+picture_in_picture|Access to picture-in-picture.
+play_audio|Play audio (auto-generated)
+post_notification|Post notification (auto-generated)
+post_promoted_notifications|Permission to post promoted notifications.
+process_outgoing_calls|Access APIs for diverting outgoing calls
+project_media|Project media (auto-generated)
+query_all_packages|Query all packages on device
+ranging|Access to ranging
+read_blood_pressure|Access to read blood pressure.
+read_calendar|Allows an application to read the user's calendar data.
+read_call_log|Allows an application to read the user's call log.
+read_cell_broadcasts|Read previously received cell broadcast messages.
+read_cell_identity|Read telephony cell identity.
+read_cell_info|Read telephony cell information.
+read_clipboard|Read clipboard (auto-generated)
+read_contacts|Allows an application to read the user's contacts data.
+read_device_identifiers|Read device identifiers
+read_external_storage|Read external storage.
+read_heart_rate|Access to read heart rate sensor.
+read_heart_rate_variability|Access to read heart rate variability.
+read_icc_sms|Read icc sms (auto-generated)
+read_media_audio|Read media of audio type.
+read_media_images|Read media of image type.
+read_media_video|Read media of video type.
+read_media_visual_user_selected|Notify apps that they have been granted URI permission photos
+read_otp_sms|Read OTP SMS messages
+read_oxygen_saturation|Access to read oxygen saturation.
+read_phone_state|Required to access phone state related information.
+read_respiratory_rate|Access to read respiratory rate.
+read_restricted_messages|Access to read restricted messages stored in telephony database. A message can be marked as restricted only by an app granted with #OPSTR_WRITE_RESTRICTED_MESSAGES. A restricted message can only be read by an app granted with this access. It is granted only to a limited set of roles.
+read_screen_context|Access to screen and app context as voice interaction service.
+read_skin_temperature|Access to read skin temperature.
+read_sms|Allows an application to read SMS messages.
+read_system_grammatical_gender|Allows an application to read the system grammatical gender.
+rapid_clear_notifications_by_listener|Rapid clearing of notifications by a notification listener (auto-generated)
+read_vo2_max|Access to read VO2 max.
+read_write_health_data|An app op for reading/writing health connect data.
+receive_ambient_trigger_audio|Receive microphone audio from an ambient sound detection event
+receive_emergency_broadcast|Receive emergency broadcast (auto-generated)
+receive_explicit_user_interaction_audio|Record audio from near-field microphone (ie. TV remote) Allows audio recording regardless of sensor privacy state, as it is an intentional user interaction: hold-to-talk
+receive_mms|Allows an application to receive MMS messages.
+receive_sandbox_trigger_audio|Allows the assistant app to be voice-triggered by detected hotwords from a trusted detection service.
+receive_sensitive_notifications|Allows apps with a NotificationListenerService to receive notifications with sensitive information Apps with a NotificationListenerService without this permission will not be able to view certain types of sensitive information contained in notifications
+receive_sms|Allows an application to receive SMS messages.
+receive_wap_push|Allows an application to receive WAP push messages.
+record_audio|Required to be able to access the microphone device.
+record_audio_hotword|Audio is being recorded for hotword detection.
+record_audio_output|App output audio is being recorded
+record_audio_sandboxed|Audio is being recorded in sandboxed detection process.
+record_incoming_phone_audio|Record incoming phone audio (auto-generated)
+request_delete_packages|Request delete packages (auto-generated)
+request_install_packages|Request install packages (auto-generated)
+reserved_for_testing|Reserved for use by appop tests so that operations done legitimately by the platform don't interfere with expected results. Platform code should never use this.
+run_any_in_background|Run any in background (auto-generated)
+run_in_background|Run in background (auto-generated)
+run_user_initiated_jobs|App can schedule user-initiated jobs.
+scene_understanding_coarse|Access coarse scene tracking data.
+scene_understanding_fine|Access fine scene tracking data.
+schedule_exact_alarm|App can schedule exact alarm to perform timing based background work.
+send_sms|Allows an application to send SMS messages.
+sms_financial_transactions|Financial app read sms.
+start_foreground|Start foreground (auto-generated)
+system_alert_window|Required to draw on top of other apps.
+system_application_overlay|Required to draw system application overlays.
+system_exempt_from_dismissible_notifications|Allow an application to create non-dismissible notifications. Starting from Android U, notifications with the ongoing parameter can be dismissed by a user on an unlocked device unless the application that created the notification is exempt. An application with this appop will be made exempt. Only to be used by the system.
+system_exempt_from_activity_bg_start_restriction|Allows an application to start an activity while running in the background. Only to be used by the system.
+system_exempt_from_hibernation|Prevent an app from being placed into hibernation. Only to be used by the system.
+system_exempt_from_power_restrictions|Exempt an app from all power-related restrictions, including app standby and doze. In addition, the app will be able to start foreground services from the background, and the user will not be able to stop foreground services run by the app. Only to be used by the system.
+system_exempt_from_suspension|Prevent an app from being suspended. Only to be used by the system.
+take_audio_focus|Take audio focus (auto-generated)
+take_media_buttons|Take media buttons (auto-generated)
+toast_window|Toast window (auto-generated)
+turn_screen_on|Turn screen on (auto-generated)
+unarchival_support|Whether the app has enabled compatibility support for unarchival.
+use_biometric|Use the BiometricPrompt/BiometricManager APIs.
+use_fingerprint|Use the fingerprint API.
+use_full_screen_intent|Send an intent to launch instead of posting the notification to the status bar.
+use_icc_auth_with_device_identifier|Allows to read device identifiers and use ICC based authentication like EAP-AKA.
+use_sip|Access APIs for SIP calling over VOIP or WiFi
+uwb_ranging|Uwb ranging (auto-generated)
+vibrate|Vibrate (auto-generated)
+wake_lock|Wake lock (auto-generated)
+wifi_scan|Wifi scan (auto-generated)
+write_calendar|Allows an application to write to the user's calendar data.
+write_call_log|Allows an application to write to the user's call log.
+write_clipboard|Write clipboard (auto-generated)
+write_contacts|Allows an application to write to the user's contacts data.
+write_external_storage|Write external storage.
+write_icc_sms|Write icc sms (auto-generated)
+write_media_audio|Write media of audio type.
+write_media_images|Write media of image type.
+write_media_video|Write media of video type.
+write_restricted_messages|Access to write restricted messages into telephony database. A message can be marked as restricted only by an app granted with this access and can only be read by an app granted with #OPSTR_READ_RESTRICTED_MESSAGES.
+write_settings|Required to write/modify/update system settings.
+write_sms|Write sms (auto-generated)
+write_system_preferences|Access to system preferences write services
+write_wallpaper|Write wallpaper (auto-generated)
